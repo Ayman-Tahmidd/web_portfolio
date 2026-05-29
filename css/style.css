@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smoooth;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6px;
+    color: #333333;
+    background-color: #ffffff;
+}

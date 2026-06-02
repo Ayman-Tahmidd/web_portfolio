@@ -73,3 +73,30 @@ nav {
 .nav-links a:hover {
     color: #007bff;
 }
+
+.container {
+    padding: 5rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(135deg, #e0fc 0%, 38ec5fc 100%);
+    color: #1a1a1a;
+    padding: 0 5%;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+

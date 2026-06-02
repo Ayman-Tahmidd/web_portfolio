@@ -174,3 +174,32 @@ nav {
 .project-info {
     padding: 2rem;
 }
+
+.experience-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    border-left: 4px solid #007bff;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+    position: relative; /* Positioning requirement */
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.date {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.95rem;
+}

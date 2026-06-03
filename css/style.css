@@ -218,3 +218,25 @@ nav {
 .main-footer .btn {
     margin: 1.5rem 0;
 }
+
+.main-footer h2 {
+    color: #ffffff;
+}
+
+.main-footer .btn {
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; 
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .container {
+        padding: 3rem 5%;
+    }
+}

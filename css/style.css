@@ -5,12 +5,12 @@
 }
 
 html {
-    scroll-behavior: smoooth;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: sans-serif;
-    line-height: 1.6px;
+    line-height: 1.6;
     color: #333333;
     background-color: #ffffff;
 }
@@ -70,8 +70,11 @@ nav {
     gap: 2rem;
 }
 
-.nav-links a:hover {
-    color: #007bff;
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 .container {
@@ -88,8 +91,9 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    background:linear-gradient(135deg, #e0fc 0%, 38ec5fc 100%);
+    background:linear-gradient(135deg, #e0f0ff 0%, #d8ecff 100%);
     color: #1a1a1a;
     padding: 0 5%;
 }
@@ -129,9 +133,10 @@ nav {
     border-color: #007bff;
 }
 
-.skills-grid {
+.skills-grid,
+.skill-set {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
